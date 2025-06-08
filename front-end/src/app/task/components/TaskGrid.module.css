@@ -1,0 +1,66 @@
+.flex {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.flex.justify-end {
+  justify-content: flex-end;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.card .color {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.card .button {
+  padding: 5px;
+  border: none;
+  color: #fff;
+  background: var(--green-100);
+  border-radius: 5px;
+  padding: 8px 5px;
+}
+
+.filters {
+  display: flex;
+  padding: 10px 50px;
+}
+
+.filters div {
+  flex-grow: 1;
+}
+
+.filters div input {
+  display: none;
+}
+
+.filters div input:not:checked+label {
+  background: #f2f0f0;
+}
+
+.filters div input:checked+label {
+  background: #d9d9d9;
+}
+
+.filters div label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}

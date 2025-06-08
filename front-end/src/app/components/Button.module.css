@@ -1,0 +1,18 @@
+.button {
+  --bg-base: #0d14d1;
+  background: var(--bg-base);
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.button.green {
+  --bg-base: #0dd169;
+}
+
+.button.gray {
+  --bg-base: #999a9a;
+}

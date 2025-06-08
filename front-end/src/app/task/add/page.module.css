@@ -1,0 +1,23 @@
+.form {
+  width: 470px;
+  margin: auto;
+  background: #fff;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+.form fieldset {
+  border: none;
+  margin-bottom: 0.7em;
+}
+
+.form label {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.3em;
+}
+
+.form .button-container {
+  display: flex;
+  justify-content: space-around;
+}
