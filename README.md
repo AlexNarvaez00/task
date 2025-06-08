@@ -17,11 +17,13 @@ Para poder ejecutar el backen necesitamos instalar las dependencias.
 cd back-end
 ```
 
+Instalar dependencias.
+
 ```
 pnpm install
 ```
 
-Instalar dependencias.
+Ejecutar el servidor
 
 ```
 pnpm dev
@@ -41,11 +43,13 @@ Para poder ejecutar el backen necesitamos instalar las dependencias.
 cd front-end
 ```
 
+Instalar dependencias.
+
 ```
 pnpm install
 ```
 
-Instalar dependencias.
+Ejecutar el servidor
 
 ```
 pnpm dev
