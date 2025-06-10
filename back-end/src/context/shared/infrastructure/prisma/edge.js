@@ -124,7 +124,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/alexis/projects/backend/src/context/shared/infrastructure/prisma",
+      "value": "/home/alexis/projects/task/back-end/src/context/shared/infrastructure/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -138,7 +138,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/alexis/projects/backend/prisma/schema.prisma",
+    "sourceFilePath": "/home/alexis/projects/task/back-end/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
